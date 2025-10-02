@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Icon?
+
+# Logs and debugging
+*.log
+logs/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_convert*
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Local settings / environment
+.env
+.env.*
+*.local
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data and caches
+.parsed_cache/
+parsed_results/
+
+# Vector stores / databases
+chroma_db/
+*.sqlite3
+*.db
+
+# Artifacts
+*.tmp
+*.bak
+
+# Images derivatives
+*.thumb.*
