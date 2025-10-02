@@ -60,4 +60,6 @@ Start FastAPI server
 ```bash
 python main.py
 ```
+## YouTube Video
+Watch the walkthrough on YouTube: [https://youtu.be/bHqbWIF3BmU](https://youtu.be/bHqbWIF3BmU)
 
