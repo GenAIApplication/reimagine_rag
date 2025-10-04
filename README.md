@@ -1,6 +1,8 @@
-# RAG‑V1
+# Simple RAG – Minimal Retrieval-Augmented Generation API
 
-A teaching-focused Retrieval‑Augmented Generation (RAG) mini‑project. It parses PDFs, builds a local vector index with embeddings, retrieves relevant context, and generates grounded answers with an agent.
+This project implements a **minimal Retrieval-Augmented Generation (RAG) API** with FastAPI that answers questions from the *WHO World Health Statistics 2024* report.  
+
+It uses **ChromaDB** for retrieval and **Google Gemini** for generation. A small **load-testing script** is also included to fire 5 concurrent queries against the API and measure execution time.
 
 ![RAG overview](images/course_rag_intro.png)
 
@@ -61,5 +63,9 @@ Start FastAPI server
 python main.py
 ```
 ## YouTube Video
-Watch the walkthrough on YouTube: [https://youtu.be/bHqbWIF3BmU](https://youtu.be/bHqbWIF3BmU)
+📺 Watch the full walkthrough on YouTube: [https://youtu.be/bHqbWIF3BmU](https://youtu.be/bHqbWIF3BmU)
+
+## Code Architecture
+📖 For a detailed explanation of the project’s architecture, check out [Codalogy](https://codalogy.com) → **Simple RAG**
+
 
