@@ -63,7 +63,7 @@ Start FastAPI server
 python main.py
 ```
 ## YouTube Video
-📺 Watch the full walkthrough on YouTube: [https://youtu.be/bHqbWIF3BmU](https://youtu.be/bHqbWIF3BmU)
+📺 Watch the full walkthrough on [YouTube](https://youtu.be/bHqbWIF3BmU)
 
 ## Code Architecture
 📖 For a detailed explanation of the project’s architecture, check out [Codalogy](https://codalogy.com) → **Simple RAG**
